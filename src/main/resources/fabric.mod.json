@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "nofunallowed",
+    "version": "${version}",
+    "name": "nofunallowed",
+    "description": "",
+    "authors": [],
+    "contact": {
+        "repo": "https://github.com/repulica/nofunallowed"
+    },
+    "license": "Apache-2.0",
+    "icon": "assets/nofunallowed/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "repulica.nofunallowed.NoFunAllowed"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.22",
+        "fabric": "*",
+        "minecraft": "1.20.1"
+    },
+    "mixins": [
+        "mixins.nofunallowed.json"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "repulica.nofunallowed.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "mixins": [
+        "MixinAbstractBlockState",
+        "MixinItemStack"
+    ],
+    "client": [
+    ]
+}

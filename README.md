@@ -1,0 +1,2 @@
+# nofunallowed
+nofunallowed
